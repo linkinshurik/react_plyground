@@ -3,10 +3,48 @@ $green-light: #86c232;
 $dark: #222629;
 $grey: #474b4f;
 $light-grey: #6b6e70;
+$light: #ccc;
+$white: #fff;
 
 body {
     font-family: 'Segoe UI';
     margin: 0;
+}
+
+.Main {
+    background-color: $white;
+    height: 100vh;
+    display: grid;
+}
+
+.Header { 
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: end;
+    background-color: $green-light;
+    color: $white;
+    height: 60px;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+        text-transform: uppercase;
+        background-color: $green;
+
+        &-text {
+            font-size: 16px;
+            font-weight: 200;
+            padding: 0 10px;
+        }
+
+        &:hover {
+            background-color: $green-light;
+            color: $grey;
+            cursor: pointer;
+        }
+    }
 }
 
 .Login {

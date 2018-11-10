@@ -1,5 +1,5 @@
 import * as React from 'react';
-import LockIcon from '@material-ui/icons/Lock';
+import LockIcon from "../../../node_modules/@material-ui/icons/Lock"
 
 export default class Login extends React.PureComponent {
 
