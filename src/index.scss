@@ -31,7 +31,7 @@ body {
         justify-content: center;
         padding: 0 30px;
         text-transform: uppercase;
-        background-color: $green;
+        background-color: $green-light;
 
         &-text {
             font-size: 16px;
@@ -40,7 +40,7 @@ body {
         }
 
         &:hover {
-            background-color: $green-light;
+            background-color: $green;
             color: $grey;
             cursor: pointer;
         }
